@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Charles Mike Quimado - BSIT Student & Web Developer Portfolio">
+    <title>Register | Charles Mike Quimado</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+</head>
+<body class="register-page">
+    <div class="register-container">
+        <div class="register-grid">
+            <!-- Left Side - Image & Welcome -->
+            <div class="register-image-section">
+                <div class="register-image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=1200&q=80" 
+                         alt="Welcome" 
+                         class="register-bg-image">
+                    <div class="register-overlay">
+                        <div class="register-welcome-content">
+                            <div class="welcome-header">
+                                <i class="bi bi-code-slash"></i>
+                                <h3>Charles Quimado</h3>
+                            </div>
+                            <p>Welcome to my portfolio! Register to continue exploring my work.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Side - Registration Form -->
+            <div class="register-form-section">
+                <div class="register-card">
+                    <div class="register-header">
+                        <div class="register-icon-circle">
+                            <i class="bi bi-person-plus"></i>
+                        </div>
+                        <h2>Welcome!</h2>
+                        <p>Please register to view my portfolio</p>
+                    </div>
+
+                    <form id="registerForm" class="register-form">
+                        <div class="form-group">
+                            <label for="fullName">Full Name</label>
+                            <input 
+                                type="text" 
+                                id="fullName" 
+                                name="fullName" 
+                                placeholder="Enter your name" 
+                                required 
+                                autofocus
+                            >
+                        </div>
+
+                        <button type="submit" class="btn-primary">
+                            <i class="bi bi-check-circle"></i>
+                            Register & Continue
+                        </button>
+                    </form>
+
+                    <div class="register-footer">
+                        <a href="index.html" class="back-link">
+                            <i class="bi bi-arrow-left"></i>
+                            Back to Portfolio
+                        </a>
+                    </div>
+
+                    <!-- Mobile Image -->
+                    <div class="mobile-image">
+                        <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&q=80" 
+                             alt="Welcome">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/register.js"></script>
+</body>
+</html>
