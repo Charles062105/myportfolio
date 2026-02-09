@@ -1,8 +1,22 @@
 {
-  "rewrites": [
+  "version": 2,
+  "public": true,
+  "routes": [
     {
-      "source": "/(.*)",
-      "destination": "/$1"
+      "src": "/css/(.*)",
+      "dest": "/css/$1"
+    },
+    {
+      "src": "/js/(.*)",
+      "dest": "/js/$1"
+    },
+    {
+      "src": "/register.html",
+      "dest": "/register.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ]
 }
